@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    background-image: linear-gradient(-120deg, rgb(197, 255, 170), rgb(113, 250, 255));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    text-decoration: underline 4px;
+}
+
+.container {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+span {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+p {
+    padding: 5%;
+    font-size: 35px;
+    line-height: 60px;
+    word-spacing: 20px;
+}
+
+.co {
+    color: green;
+}
+
+.para {
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+
+.progress {
+    position: absolute;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.er {
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.high {
+    color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.top {
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}

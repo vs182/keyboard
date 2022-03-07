@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Swift</title>
+</head>
+
+<body>
+    <audio id="audio" src="./type.wav" autoplay="false"></audio>
+    <audio id="error" src="./error.wav" autoplay="false"></audio>
+    <h1>Type Swift <span>|</span></h1>
+    <p class="er" id=er></p>
+    <p class="high" id="high"></p>
+    <p class="top" id="top"></p>
+    <div id="cont" class="container">
+        <p id="text">The sun is a huge ball of gases.It is so huge that it can hold millions of planets inside it. The Sun is mainly made up of hydrogen and helium gas. The surface of the Sun is known as the photosphere. The photosphere is surrounded by a thin layer of gas known as the chromospheres. Without the Sun, there would be no life on Earth. There would be no plants, no animals and no human beings. As, all the living things on Earth get their energy from the Sun for their survival
+        </p>
+        <p id="ans" class="para"></p>
+        <progress value="0" max="300" class="progress" id="progressBar"></progress>
+    </div>
+    <div style="justify-content: center; display: flex;align-items: center;">
+        <p id="over" style="position: absolute; text-align: center;"></p>
+    </div>
+    <!-- <progress value="0" max="60" id="progressBar"></progress> -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
